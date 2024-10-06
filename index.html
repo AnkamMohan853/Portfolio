@@ -45,6 +45,22 @@
 	}
 	 /* Mobile-Only CSS for screens with max-width of 767px */
 	 @media screen and (max-width: 767px) {
+
+		  .ftco-about .container {
+        flex-direction: column; /* Stack columns vertically */
+    }
+    
+    .ftco-about .img-about {
+        margin-bottom: 20px; /* Space below the image on mobile */
+    }
+    
+    .ftco-about .row {
+        flex-direction: column; /* Force row to column on mobile */
+    }
+
+    .ftco-about .col-md-6 {
+        width: 100%; /* Ensure full width */
+    }
 	   .hero{
 	   	display: none;
 	   }
